@@ -1,0 +1,15 @@
+# Activar RewriteEngine
+RewriteEngine On
+
+RewriteRule ^login controlador/
+RewriteRule ^inicio controlador/
+RewriteRule ^general_usuario_lider controlador/
+RewriteRule ^nuevo_usuario controlador/
+RewriteRule ^perfil_admin controlador/
+RewriteRule ^referidos_perfil controlador/
+RewriteRule ^pedidos controlador/
+RewriteRule ^menu_lider controlador/
+RewriteRule ^menu_admin controlador/
+RewriteRule ^agregar_referido controlador/
+RewriteRule ^bonos_ganancias controlador/
+RewriteRule ^Referidos controlador/
