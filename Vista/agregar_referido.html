@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>DASHGUM</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="Recursos/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="Recursos/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        
+    <!-- Custom styles for this template -->
+    <link href="Recursos/css/style.css" rel="stylesheet">
+    <link href="Recursos/css/style-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <!--logo start-->
+            <a href="index.html" class="logo"><b>BIENVENIDO</b></a>
+            <!--logo end-->
+            <div class="top-menu">
+              <ul class="nav pull-right top-menu">
+                    <li><a class="logout" href="login.html">Salir</a></li>
+              </ul>
+            </div>
+        </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+              
+                  <p class="centered"><a href="#"><img src="Recursos/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
+                  <h5 class="centered">Jon Snow</h5>
+                    
+                  <li class="mt">
+                      <a href="menu_lider.html">
+                          <i class="fa fa-home"></i>
+                          <span>Inicio</span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a class="active" href="agregar_referido.html" >
+                          <i class="fa fa-file"></i>
+                          <span>Agregar Referido</span>
+                      </a>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-user"></i>
+                          <span>Mis Referidos</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="Referidos.html">Datos</a></li>
+                          <li><a  href="pedidos.html">Pedidos</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="bonos_ganancias.html" >
+                          <i class="fa fa-money"></i>
+                          <span>Ganancias/Bonos</span>
+                      </a>
+                  </li>
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper site-min-height">
+          	<h3><i class="fa fa-angle-right"></i> Agregar Referido</h3>
+          	<div class="row mt">
+          		<div class="col-lg-12">
+                
+                            <!-- BASIC FORM ELELEMNTS -->
+            <div class="row mt">
+              <div class="col-lg-12">
+                  <div class="form-panel">
+                      <h4 class="mb"><i class="fa fa-angle-right"></i> Ficha de Inscripción de B2B Commodity</h4>
+                      <form class="form-horizontal style-form" method="post">
+                          <div class="form-group">
+                            <label class="col-sm-2 control-label"> 1-. Datos Personales</label>
+                             <div>
+                              <label class="col-sm-1 col-sm-1 control-label"> Código:</label>
+                              <div class="col-sm-3">
+                                  <input type="text" class="form-control">
+                              </div>
+                             </div>
+                              <br><br><br>
+                              <label class="col-sm-1 col-sm-1 control-label"> Nombres:</label>
+                              <div class="col-sm-7">
+                                  <input type="text" class="form-control">
+                              </div>
+                              <br><br><br>
+                              <label class="col-sm-1 col-sm-1 control-label"> Apellidos:</label>
+                              <div class="col-sm-7">
+                                  <input type="text" class="form-control">
+                              </div>
+                              <br><br><br>
+                              <label class="col-sm-1 col-sm-1 control-label"> Fecha de Nacimineto:</label>
+                              <div class="col-sm-5">
+                                  <input type="date" class="form-control">
+                              </div>
+                              <label class="col-sm-1 col-sm-1 control-label"> Estado Civil:</label>
+                              <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                    Soltero
+                                </label>
+                              </div>
+                              <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                  Casado
+                                </label>
+                              </div>
+                              <br><br><br>
+                              <label class="col-sm-1 col-sm-1 control-label"> DNI N°:</label>
+                              <div class="col-sm-2">
+                                  <input type="text" class="form-control">
+                              </div>
+                              <label class="col-sm-1 col-sm-1 control-label"> Edad:</label>
+                              <div class="col-sm-2">
+                                  <input type="text" class="form-control">
+                              </div>
+
+                             <label class="col-sm-1 col-sm-1 control-label"> Sexo:</label>
+                              <div class="checkbox-inline">
+                                 <label>
+                                 <input type="checkbox" value="">
+                                    Masculino
+                                </label>
+                              </div>
+                              <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                Femenino
+                               </label>
+                             </div>
+                              <br><br><br>
+                              <label class="col-sm-1 col-sm-1 control-label"> Dirección:</label>
+                              <div class="col-sm-5">
+                                  <input type="text" class="form-control">
+                              </div>
+                              <label class="col-sm-1 col-sm-1 control-label"> Distrito:</label>
+                              <div class="col-sm-4">
+                                  <input type="text" class="form-control">
+                              </div>
+                              <br><br><br>
+                              <label class="col-sm-1 col-sm-1 control-label"> Provincia:</label>
+                              <div class="col-sm-5">
+                                  <input type="text" class="form-control">
+                              </div>
+                              <label class="col-sm-1 col-sm-1 control-label"> Región:</label>
+                              <div class="col-sm-4">
+                                  <input type="text" class="form-control">
+                              </div>
+                              <br><br><br>
+                              <label class="col-sm-1 col-sm-1 control-label"> teléfono fijo:</label>
+                              <div class="col-sm-2">
+                                  <input type="text" class="form-control">
+                              </div>
+                              <label class="col-sm-1 col-sm-1 control-label"> Móvil:</label>
+                              <div class="col-sm-2">
+                                  <input type="text" class="form-control">
+                              </div>
+                              <label class="col-sm-1 col-sm-1 control-label"> E-mail:</label>
+                              <div class="col-sm-3">
+                                  <input type="" class="form-control">
+                              </div>
+                            </div>
+
+                            <div class="form-group">
+                            <label class="col-sm-2 control-label"> 2-. Recomendado Por:</label>
+                            <br><br><br>
+                              <label class="col-sm-1 col-sm-1 control-label"> Nombres:</label>
+                              <div class="col-sm-7">
+                                  <input type="text" class="form-control">
+                              </div>
+                              <br><br><br>
+                              <label class="col-sm-1 col-sm-1 control-label"> apellidos:</label>
+                              <div class="col-sm-7">
+                                  <input type="text" class="form-control">
+                              </div>
+                            <br><br><br>
+                              <label class="col-sm-1 col-sm-1 control-label"> Código:</label>
+                              <div class="col-sm-4">
+                                  <input type="text" class="form-control">
+                              </div>
+                            <br><br><br>
+                            </div>
+
+                            <div class="form-group">
+                            <label class="col-sm-2 control-label"> 3-. Formación:</label>
+                            <br><br><br>
+                            <label class="col-sm-2 control-label"> ¿Condición Actual?:</label>
+                             <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                Estudiante
+                               </label>
+                             </div> 
+                             <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                Profesional
+                               </label>
+                             </div>                              
+                             <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                Técnico 
+                               </label>
+                             </div>                              
+                             <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                Ama de casa
+                               </label>
+                             </div>
+                            <br><br><br>
+                            </div>
+                            
+                            <div class="form-group">
+                            <label class="col-sm-2 control-label"> 4-. Cómo se Enteró del Programa:</label>
+                            <br><br>
+                             <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                Radio
+                               </label>
+                             </div>
+                             <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                TV
+                               </label>
+                             </div>
+                             <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                Diario
+                               </label>
+                             </div>
+                             <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                Internet
+                               </label>
+                             </div>
+                             <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                Promotores 
+                               </label>
+                             </div>
+                             <div class="checkbox-inline">
+                                <label>
+                                <input type="checkbox" value="">
+                                Otros
+                               </label>
+                             </div>
+                             <br><br><br>
+                              <label class="col-sm-1 col-sm-1 control-label"> Nombre del Medio:</label>
+                              <div class="col-sm-6">
+                                  <input type="text" class="form-control">
+                              </div>
+                            </div>
+                            
+                            <div class="form-group">
+                            <label class="col-sm-2 control-label"> 5-. Fecha:</label>
+                            <br><br>
+                            <div class="col-sm-6">
+                              <input type="date" class="form-control">
+                            </div>
+
+                            </div>
+
+
+
+                          </div>
+                      </form>
+                  </div>
+              </div><!-- col-lg-12-->       
+            </div><!-- /row -->
+          		</div>
+          	</div>
+			
+		</section><! --/wrapper -->
+      </section><!-- /MAIN CONTENT -->
+
+      <!--main content end-->
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              2014 - Alvarez.is
+              <a href="blank.html#" class="go-top">
+                  <i class="fa fa-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="Recursos/js/jquery.js"></script>
+    <script src="Recursos/js/bootstrap.min.js"></script>
+    <script src="Recursos/js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="Recursos/js/jquery.ui.touch-punch.min.js"></script>
+    <script class="include" type="text/javascript" src="Recursos/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="Recursos/js/jquery.scrollTo.min.js"></script>
+    <script src="Recursos/js/jquery.nicescroll.js" type="text/javascript"></script>
+
+
+    <!--common script for all pages-->
+    <script src="Recursos/js/common-scripts.js"></script>
+
+    <!--script for this page-->
+    
+  <script>
+      //custom select box
+
+      $(function(){
+          $('select.styled').customSelect();
+      });
+
+  </script>
+
+  </body>
+</html>
